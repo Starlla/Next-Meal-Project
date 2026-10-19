@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-export default function AboutPage() {
+export default function CommunityPage() {
   return (
     <main>
-      <h1>About Us</h1>
-      <p>This app was built while learning NextJS.</p>
+      <h1>Community</h1>
+      <p>Join our community of NextJS learners.</p>
       <p><Link href="/">Back to Home</Link></p>
     </main>
   );
